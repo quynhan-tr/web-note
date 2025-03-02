@@ -7,7 +7,27 @@
   color: white;
   border: none;
   border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.toggle-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.toggle-button:active {
+  background-color: #004085;
+  transform: scale(0.95);
+}
+
 .toggle-button.off {
   background-color: #dc3545;
+}
+
+.toggle-button.off:hover {
+  background-color: #c82333;
+}
+
+.toggle-button.off:active {
+  background-color: #bd2130;
 }
